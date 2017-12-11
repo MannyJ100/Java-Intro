@@ -14,6 +14,14 @@ while (loop === "y"){
         alert(weight / Math.pow(height, 2));
     }
 
+    mortCalc = prompt("Do you want to use our mortgage calculator?")
+    	if (mortCalc == "y") {
+    	var loan = parseInt(prompt("What is your loan amount?"));
+    	var interest = parseFloat(prompt("What is your monthly interest rate?"));
+    	var months = parseInt(prompt("Number of months in the loan"));
+    	alert(loan *(interest * Math.pow(1 + interest, months) / Math.pow(1 + interest, months) - 1));
+    	}
+
     choice = prompt("Choose your action (a)dd (s)ubtract (m)ultiply (d)ivide (sq)are-root (p)ower") || ("a");
     value1 = parseInt(prompt("Enter first value")); 
     value2 = parseInt(prompt("Enter the second value"));

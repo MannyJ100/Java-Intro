@@ -1,13 +1,13 @@
 // A simple everyday if
 
-// var theThingWotIsTrue = false;
+ var theThingWotIsTrue = false;
 
-// if (theThingWotIsTrue) {
-// 	alert("dawg");
-// }
+ if (theThingWotIsTrue) {
+ 	alert("dawg");
+ }
 
 // // Also in one line
-// if (theThingWotIsTrue) alert("One line!!");
+ if (theThingWotIsTrue) alert("One line!!");
 
 // if/else
 var dolla = prompt("How much money on ya?");
